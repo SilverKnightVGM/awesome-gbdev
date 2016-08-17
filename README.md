@@ -1,4 +1,4 @@
-﻿# awesome-gbdev [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](#awesome-gbdev)
+# awesome-gbdev [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](#awesome-gbdev)
 
 ![asd](http://orig04.deviantart.net/fb5e/f/2010/239/6/1/free_av__gameboy_by_kiddo47.gif)A curated list of awesome GameBoy Development resources, tools, docs, related projects and open-source ROMs. Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
@@ -38,7 +38,8 @@ Here you can find everything to get started and master the development of unoffi
 - [GameBoy CPU Manual](http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf) Assembly Language Commands, Timings and Opcodes
 - [Assembly Language Programming Course](http://cratel.wichita.edu/cratel/ECE238Spr08) Machine and assembly language programming concepts that illustrate basic principles and techniques. Application through study of the Z80 chip and Gameboy programming assignments (Center for Research in Arts, Technology, Education, and Learning CRATEL at Withicha State Universiy).
 - [Building a GameBoy emulator in JavaScript](http://imrannazar.com/GameBoy-Emulation-in-JavaScript) by _Imran Nazar_ 
-- [gbdev Sources](https://github.com/avivace/awesome-gbdev/blob/master/SOURCES.md) a collection of homebrew and games with complete sources (in C and ASM).
+- [gbdev Sources](https://github.com/avivace/awesome-gbdev/blob/master/SOURCES.md) a collection of demos, homebrews and games with complete sources (in C and ASM)
+- [Game Boy Camera RE](https://github.com/AntonioND/gbcam-rev-engineer) Documentation about GB Camera and tools used to reverse engineer it by using Arduino UNO
 
 ## Development Softwares and Tools
 - [rgbds](https://github.com/bentley/rgbds) The main gb devkit. Assembler and linker package, currently updated. This is your main tool to write code in **ASM**. 
@@ -48,6 +49,7 @@ Here you can find everything to get started and master the development of unoffi
 - [rgbds_textmate](https://github.com/Bananattack/rgbds_textmate) Some syntax highlighting rules for coding in Z80 assembly as a Textmate language plugin. Works in Sublime Text 2 and 3\. The syntax is particularly designed for [RGBDS](http://www.otakunozoku.com/rednex-gameboy-development-system/) and Gameboy-specific Z80 instructions. 
 - [Harry Mulder's GB Development](http://www.devrs.com/gb/hmgd/intro.html) Some sources and home of GameBoy Tile Designer and GameBoy Map Builder tools 
 - [Gambatte](http://sourceforge.net/projects/gambatte/) Open-source, cross-platform and accurate **emulator** for gb/gbc
+- [GBT PLAYER](https://github.com/AntonioND/gbt-player) A music player library and converter kit for Game Boy that can be used with RGBDS.
 
 ## Programming Tutorials
 asm
@@ -74,7 +76,8 @@ gbdk
 - [Reverse engineering Kirby's Dreamland 2](http://ecc-comp.blogspot.it/2016/03/reverse-engineering-kirbys-dreamland-2.html)
 
 ## Cartridges
-- [AntonioND's docs](https://github.com/AntonioND/giibiiadvance/tree/master/docs) corrected schematics and infos on cartridge header data [Gekkio's Gameboy cartridge types](http://gekkio.fi/blog/2015-02-14-mooneye-gb-gameboy-cartridge-types.html)
+- [AntonioND's docs](https://github.com/AntonioND/giibiiadvance/tree/master/docs) corrected schematics and infos on cartridge header data
+- [Gekkio's Gameboy cartridge types](http://gekkio.fi/)blog/2015-02-14-mooneye-gb-gameboy-cartridge-types.html)
 - [Gekkio](http://gekkio.fi/blog/)'s cartridge analysis [DMG-BEAN-02](http://gekkio.fi/blog/2015-05-18-mooneye-gb-cartridge-analysis-dmg-bean-02.html), [MBC1](http://gekkio.fi/blog/2015-05-17-mooneye-gb-cartridge-analysis-fortress-of-fear.html), [no MBC](http://gekkio.fi/blog/2015-02-28-mooneye-gb-cartridge-analysis-tetris.html) 
 - [Gameboy Cartridges Schematics](http://www.devrs.com/gb/files/gb.html) 
 - [Reiner Ziegler's GameBoy page](http://www.reinerziegler.de/readplus.htm) Commercial and homemades programmable cartridges and programming systems. Tutorials, wiring and schematics provided. 
@@ -102,7 +105,8 @@ gbdk
 - [GBDK Developers](http://gbdk-developers.com/) Active blog about everything related to the scene. Features insights and interviews.
 
 ## Contributing
-Make an individual pull request for each suggestion and be sure to include a clear title and a link to your suggested resource.
+Help is appreciated. This list mainly need clear and explicative descriptions for every resource.
+If want to suggest some resources, make an individual pull request for each suggestion and be sure to include a clear title and a link to your suggested resource (or list them in an issue).
 See also the [Contribution guidelines](https://github.com/avivace/awesome-gbdev/blob/master/CONTRIBUTING.md).
 
 ## License
